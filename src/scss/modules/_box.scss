@@ -1,0 +1,29 @@
+.box {
+  background-color: #42a5f5;
+  border: 1px solid #0d47a1;
+  padding: 20px;
+  width: fit-content;
+}
+
+.box-container {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.box-container-1 {
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.box-container-2 {
+  flex-flow: column nowrap;
+  align-items: flex-end;
+}
+
+.box-container-3 {
+  flex-flow: row wrap;
+}
+
+.box-container-3 .box {
+  width: 25%;
+}
