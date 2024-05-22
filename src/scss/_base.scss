@@ -31,6 +31,7 @@ body {
   font-size: 1rem;
   line-height: 1.25;
   font-family: "Open Sans", sans-serif;
+  color: #000;
 }
 
 a {
@@ -44,6 +45,21 @@ video {
   vertical-align: middle;
 }
 
-/* ====================================
-// base rules
-// ==================================== */
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #748cab;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
